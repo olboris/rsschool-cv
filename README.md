@@ -1,1 +1,0 @@
-https://olboris.github.io/rsschool-cv/cv
