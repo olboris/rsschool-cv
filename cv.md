@@ -27,6 +27,19 @@ I have a huge desire to change job and develop in the field of web development.
 [Movies explorer (frontend)](https://github.com/olboris/movies-explorer-frontend) - The application allows to search and save movies, filter the search by duration, delete a movie from the saved list. You can also register, authorize and update user data.
 
 ---
+### Code example:
+Below is an example of solving the CodeWars Kata where we should find the number of Friday 13th in the given year:
+```
+function unluckyDays(year){
+    for (month=0, unluckyDays=0; month < 12; month++) {
+        date = new Date(year, month, 13);
+        if (date.getDay()!=5) continue;
+        unluckyDays++;
+     }
+     return unluckyDays;
+}
+```
+---
 ### Skills:
 * HTML
 * CSS
