@@ -1,0 +1,7 @@
+.page {
+    font-family: monospace;
+    background-color: #2A2C2F;
+    color: white;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+}
