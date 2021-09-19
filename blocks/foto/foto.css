@@ -1,6 +1,14 @@
 .foto {
-    width: 75%;
+    width: 100%;
+    height: auto;
     border-radius: 15%;
+    justify-self: center;
     align-self: center;
-    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .foto {
+        width: 55%;
+        height: auto;
+    }
 }
