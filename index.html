@@ -45,51 +45,52 @@
             <li class="list-point">Interior design</li>
         </ul>
     </section>
-    <section class="general">
-        <h1 class="name">&lt Olga Babushkina &gt</h1>
-        <h2 class="specialty">&lt Junior frontend developer &gt</h2>
-        <h3 class="subtitle">&lt About me &gt</h3>
-        <p class="about-me">
-            I'm junior frontend developer from Moscow.
-            I received a higher education in the specialty of Economist and work in the finance department.
-            But I have a huge desire to change job and develop in the field of web development.  
-        </p>
-        <h3 class="subtitle">&lt My projects &gt</h3>
-        <div class="my-projects">
-            <div class="my-projects__item">
-                <a class="my=projects__link>" href="https://github.com/olboris/how-to-learn">How to learn</a>
-                <img src="" alt="How to learn" class="my-projects__foto">
-                <p class="my-projects__description">It's a one-page website with descriptions of various approaches, principles and techniques of learning. There are some links to useful resources</p>
+    <div class="general">
+        <h1 class="name">&ltOlga Babushkina/&gt</h1>
+        <h2 class="specialty">&ltJunior frontend developer/&gt</h2>
+        <div class="general__field">
+            <h3 class="general__subtitle">&ltAbout me/&gt</h3>
+            <p class="general__text">&ltI'm junior frontend developer from Moscow./&gt</p>
+            <p class="general__text">&ltI received a higher education in the specialty of Economist and work in the finance department. Despite my success at work and advance in my career all this time I was looking for an activity that would really fascinate me./&gt</p>
+            <p class="general__text">&ltAnd then one day I took introductory Web Development course and realized that was it! Now I'm immersing into frontend studies./&gt</p>
+        </div>
+        <div class="general__field">
+            <h3 class="general__subtitle">&ltMy projects/&gt</h3>
+            <div class="my-projects">
+                <div class="my-projects__item">
+                <a class="general__link" href="https://github.com/olboris/how-to-learn">&ltHow to learn/&gt</a>
+                <p class="general__text">&ltIt's a one-page website with descriptions of various approaches, principles and techniques of learning. There are some links to useful resources./&gt</p>
             </div>
             <div class="my-projects__item">
-                <a class="my=projects__link>" href="https://github.com/olboris/russian-travel">Russian Travel</a>
-                <img src="" alt="Russian Travel" class="my-projects__foto">
-                <p class="my-projects__description">It's a one-page website with descriptions and photos of the main travel destinations in Russia.</p>
+                <a class="general__link" href="https://github.com/olboris/russian-travel">&ltRussian Travel/&gt</a>
+                <p class="general__text">&ltIt's a one-page website with descriptions and photos of the main travel destinations in Russia./&gt</p>
             </div>
             <div class="my-projects__item">
-                <a class="my=projects__link>" href="https://github.com/olboris/react-mesto-api-full">Mesto</a>
-                <img src="" alt="Mesto" class="my-projects__foto">
-                <p class="my-projects__description">It's an application for adding/removing cards with information about places. There is an ability to authorize and register users, edit information about them.</p>
+                <a class="general__link" href="https://github.com/olboris/react-mesto-api-full">&ltMesto/&gt</a>
+                <p class="general__text">&ltIt's an application for adding/removing cards with information about places. There is an ability to authorize and register users, edit information about them./&gt</p>
             </div>
             <div class="my-projects__item">
-                <a class="my=projects__link>" href="https://github.com/olboris/movies-explorer-frontend">Movies explorer</a>
-                <img src="" alt="Movies explorer" class="my-projects__foto">
-                <p class="my-projects__description">The application allows to search and save movies, filter the search by duration, delete a movie from the saved list. You can also register, authorize and update user data.</p>
+                <a class="general__link" href="https://github.com/olboris/movies-explorer-frontend">&ltMovies explorer/&gt</a>
+                <p class="general__text">&ltThe application allows to search and save movies, filter the search by duration, delete a movie from the saved list. You can also register, authorize and update user data./&gt</p>
             </div>
         </div>
-        <h3 class="subtitle">&lt Code example &gt</h3>
-        <p>Below is an example of solving the CodeWars Kata where we should find the number of Friday 13th in the given year:</p>
-        <pre>
-            <code>
-                function unluckyDays(year){
-                    for (month=0, unluckyDays=0; month < 12; month++) {
-                        date = new Date(year, month, 13);
-                        if (date.getDay()!=5) continue;
-                        unluckyDays++;
-                     }
-                     return unluckyDays;
-            </code>
-        </pre>
+        </div>
+        <div class="general__field">
+            <h3 class="general__subtitle">&ltCode example/&gt</h3>
+            <p class="general__text">&ltBelow is an example of solving the CodeWars Kata where we should find the number of Friday 13th in the given year:/&gt</p>
+            <pre>
+                <code class="general__text general__text_code">
+        function unluckyDays(year){
+            for (month=0, unluckyDays=0; month < 12; month++) {
+                date = new Date(year, month, 13);
+                if (date.getDay()!=5) continue;
+                unluckyDays++;
+                }
+            return unluckyDays;
+        }
+                </code>
+            </pre>
+        </div>
     </section>
   </main>
   <footer class="footer">
