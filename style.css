@@ -23,5 +23,4 @@
 @import url(./blocks/menu-button/_hidden/menu-button_hidden.css);
 @import url(./blocks/nav-link/nav-link.css);
 @import url(./blocks/close-button/close-button.css);
-@import url(./blocks/close-button/_hidden/close-button_hidden.css);
 html {scroll-behavior: smooth};
