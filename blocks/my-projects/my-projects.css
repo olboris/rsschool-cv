@@ -2,5 +2,12 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 3%;
+    gap: 10px;
+}
+
+@media screen and (max-width: 750px) {
+    .my-projects {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, auto);
+    }
 }

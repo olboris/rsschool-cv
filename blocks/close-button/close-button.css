@@ -1,0 +1,20 @@
+.close-button {
+    align-self: flex-end;
+    width: 35px;
+    height: 35px;
+    background-image: url(../../images/close-button.svg);
+    border: none;
+    background-size: contain;
+    background-color: inherit;
+    cursor: pointer;
+    z-index: +3;
+    position: fixed;
+    top: 3%;
+    right: 3%;
+}
+
+.close-button:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-out;
+    cursor: pointer;
+}

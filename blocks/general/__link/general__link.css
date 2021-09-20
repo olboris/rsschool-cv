@@ -4,3 +4,9 @@
     text-decoration: none;
     color: rgba(248, 203, 3, 0.774);
 }
+
+.general-link:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-out;
+    cursor: pointer;
+}

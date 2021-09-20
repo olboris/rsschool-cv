@@ -3,10 +3,11 @@
 @import url(./__text/_code/general__text_code.css);
 @import url(./__text/general__text.css);
 @import url(./__link/general__link.css);
+@import url(./__code/general__code.css);
 
 .general {
-    width: 65%;
     display: flex;
     justify-content: start;
     flex-direction: column;
+    width: 100%;
 }

@@ -1,0 +1,26 @@
+.menu-button {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .menu-button {
+        display: flex;
+        position: fixed;
+        background-image: url(../../images/menu-button.png);
+        background-position: center;
+        background-size: cover;
+        background-color: transparent;
+        width: 44px;
+        height: 44px;
+        cursor: pointer;
+        border: none;
+        top: 3%;
+        right: 3%;
+    }
+}
+
+.menu-button:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-out;
+    cursor: pointer;
+}
