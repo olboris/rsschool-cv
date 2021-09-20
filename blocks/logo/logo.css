@@ -2,3 +2,8 @@
     height: 30px;
     margin: auto 10px;
 }
+.logo:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-out;
+    cursor: pointer;
+}

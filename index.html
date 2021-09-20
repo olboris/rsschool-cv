@@ -13,6 +13,16 @@
 
 <body>
     <div class="page">
+        <header class="header">
+            <button onClick="openMenu()" class="menu-button"></button>
+            <button onClick="closeMenu()" class="close-button close-button_hidden"></button>
+            <nav class="nav-menu nav-menu_hidden">
+                <a class="nav-link" href="#contacts" onClick="closeMenu()">Contacts</a>
+                <a class="nav-link" href="#about-me" onClick="closeMenu()">About me</a>
+                <a class="nav-link" href="#my-projects" onClick="closeMenu()">My projects</a>
+                <a class="nav-link" href="#code-example" onClick="closeMenu()">Code example</a>
+            </nav>
+        </header>
         <main class="main">
             <img class="foto" src="./images/main-foto.jpg" alt="Foto">
             <section class="info-container">
@@ -20,7 +30,7 @@
                 <h2 class="specialty">&lt;Junior frontend developer/&gt;</h2>
             </section>
             <section class="summary">
-                <h3 class="list-title">&#9660; Contacts</h3>
+                <h3 id="contacts" class="list-title">&#9660; Contacts</h3>
                 <ul class="list">
                     <li class="list-point">&#9655; phone: +7 (926) 983-66-90</li>
                     <li class="list-point">&#9655; e-mail: os.babushkina@yandex.ru</li>
@@ -56,7 +66,7 @@
                 </ul>
             </section>
             <section class="general">
-                <div class="general__field">
+                <div id="about-me" class="general__field">
                     <h3 class="general__subtitle">&lt;About me/&gt;</h3>
                     <p class="general__text">&lt;I'm junior frontend developer from Moscow./&gt;</p>
                     <p class="general__text">&lt;I received a higher education in the specialty of Economist and work in
@@ -65,7 +75,7 @@
                     <p class="general__text">&lt;And then one day I took introductory Web Development course and
                         realized that was it! Now I'm immersing into frontend studies./&gt;</p>
                 </div>
-                <div class="general__field">
+                <div id="my-projects" class="general__field">
                     <h3 class="general__subtitle">&lt;My projects/&gt;</h3>
                     <div class="my-projects">
                         <div class="my-projects__item">
@@ -97,7 +107,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="general__field">
+                <div id="code-example" class="general__field">
                     <h3 class="general__subtitle">&lt;Code example/&gt;</h3>
                     <p class="general__text">&lt;Below is an example of solving the CodeWars Kata where we should find
                         the number of Friday 13th in the given year:/&gt;</p>
@@ -122,4 +132,5 @@
             <a href="https://rs.school/js/"><img class="logo" alt="RS School" src="./images/logo-rss.svg"></a>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>

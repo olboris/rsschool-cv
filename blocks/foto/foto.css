@@ -4,6 +4,7 @@
     border-radius: 15%;
     justify-self: center;
     align-self: center;
+    box-shadow: 1px 1px 5px 1px rgb(59, 211, 67);
 }
 
 @media screen and (max-width: 750px) {
